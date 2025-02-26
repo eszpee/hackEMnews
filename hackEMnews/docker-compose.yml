@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  hackemnews:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    restart: unless-stopped
+    volumes:
+      - app-cache:/app/cache
+
+volumes:
+  app-cache:

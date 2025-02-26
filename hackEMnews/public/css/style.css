@@ -1,0 +1,19 @@
+/* Main Styles */
+.footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dee2e6;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .article-card {
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+}
