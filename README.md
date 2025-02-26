@@ -1,6 +1,6 @@
 # WARNING
 
-This codebase is a demonstration I did for https://peterszasz.com, playing with Claude Code. It's not working currently and considering it would make my point moot, I'm not intending to fix it.
+This codebase is a demonstration I did for https://peterszasz.com, playing with Claude Code. It's not working currently and for archival reasons, I'm not intending to fix it.
 
 # HackEM News
 
